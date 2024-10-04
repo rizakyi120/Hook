@@ -7,7 +7,7 @@ export default function handler(req, res) {
     }
 
     // تحقق من صحة `code`
-    if (code !== 'RIZAKYI') {
+    if (code !== 'RIZAKYI1') {
         return res.status(403).send("Unauthorized access");
     }
 
